@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Rachel Axelrod</title>
+    <!-- Add Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .navbar {
+            background-color: #305f72;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            align-items: flex-start;
+        }
+        .sidebar {
+            flex: 0 0 300px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+        }
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h2 {
+            margin: 0.5rem 0;
+            font-size: 1.5rem;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1rem;
+        }
+        .contact-info a {
+            display: flex;
+            align-items: center;
+            margin: 0.5rem 0;
+            color: #007acc;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .contact-info a i {
+            margin-right: 8px;
+            font-size: 1.2rem;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            flex: 1;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            min-height: 100%;
+        }
+        .main-content h1 {
+            margin: 0 0 1rem;
+            font-size: 2rem;
+        }
+        .main-content p {
+            line-height: 1.6;
+            margin: 1rem 0;
+        }
+        .main-content a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        .main-content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="profile_picture.jpeg" alt="Profile Picture">
+            <h2>Rachel Axelrod</h2>
+            
+            <div class="contact-info">
+                <a href="mailto:axelrod1@mail.tau.ac.il">
+                    <i class="fas fa-envelope"></i> axelrod1@mail.tau.ac.il
+                </a>
+                <a href="https://twitter.com/RachelAxelrod2" target="_blank">
+                    <i class="fab fa-x-twitter"></i> X (formerly Twitter)
+                </a>
+                <a href="https://github.com/xlrod1" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://scholar.google.com/citations?user=62M0xwIAAAAJ&hl=en&oi=ao" target="_blank">
+                    <i class="fas fa-graduation-cap"></i> Google Scholar
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <p>I am a Ph.D. student in Statistics at <strong>Tel Aviv University</strong>, supervised by <strong>Prof. Daniel Nevo</strong>. My research focuses on <strong>causal inference</strong>, with a particular emphasis on the intersection of causal inference and survival analysis. Specifically, my current research explores <strong>partial identification of vaccine efficacy effects</strong> and <strong>analyzing real longitudinal medical data with time-dependent confounders</strong>. My doctoral studies are generously supported by the <strong>Milner Foundation</strong> for excellent doctoral students in STEM.</p>
+
+            <p>Before starting my Ph.D., I worked as a <strong>statistician</strong> in various fields. At the <strong>Israel Center for Disease Control (ICDC)</strong>, I analyzed <strong>dietary patterns in the Israeli population</strong>, and at the <strong>Gastroenterology Department for Children in SMZC Hospital</strong>, I focused on <strong>data analysis for the IBD registry</strong>.</p>
+
+            <p>I earned my <strong>Master’s degree in Statistics</strong> from <strong>The Hebrew University</strong>, where I conducted research under the guidance of <strong>Prof. David Zucker</strong>. My work centered on <strong>covariate selection using adaptive lasso</strong> and <strong>doubly robust estimation of treatment effects</strong>.</p>
+        </div>
+    </div>
+</body>
+</html>
